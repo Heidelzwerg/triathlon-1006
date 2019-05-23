@@ -1,3 +1,8 @@
+# GitHub Pages
+
+ng build 'triathlon' --prod --vendor-chunk=true --base-href=/triathlon/
+sudo ngh --dir=dist/triathlon/
+
 # Triathlon
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
