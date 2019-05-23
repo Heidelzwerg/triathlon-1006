@@ -1,7 +1,7 @@
 # GitHub Pages
 
-ng build 'triathlon' --prod --vendor-chunk=true --base-href=/triathlon/
-sudo ngh --dir=dist/triathlon/
+ng build 'triathlon' --prod --base-href=./dist/triathlon/ --vendor-chunk=true
+sudo ngh --dir=./dist/triathlon/
 
 # Triathlon
 
